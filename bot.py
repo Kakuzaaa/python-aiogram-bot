@@ -3,6 +3,9 @@ import os
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import CommandStart
 from aiogram.types import Message
+from dotenv import load_dotenv
+
+load_dotenv()
 
 API_TOKEN = os.getenv("BOT_TOKEN")
 
